@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="456dp"
+        android:background="@drawable/customborder">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="95dp"
+            android:background="@drawable/engranaje"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="198dp"
+            android:layout_height="127dp"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="242dp"
+            android:layout_marginEnd="107dp"
+            android:layout_marginBottom="87dp"
+            android:fontFamily="@font/alien"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        android:layout_marginTop="455dp"
+        android:rowCount="1"
+        android:columnCount="3">
+        <Button
+            android:id="@+id/btn_teoria"
+            android:layout_height="100dp"
+            android:layout_width="108dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="start"
+            android:text="@string/teoria"
+            android:background="@drawable/botonredondo"/>
+        <Button
+            android:id="@+id/btn_funcion"
+            android:layout_height="100dp"
+            android:layout_width="108dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:text="@string/funcion"
+            android:background="@drawable/botonredondo"/>
+        <Button
+            android:id="@+id/btn_creditos"
+            android:layout_height="100dp"
+            android:layout_width="108dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/creditos"
+            android:background="@drawable/botonredondo"/>
+
+    </GridLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
