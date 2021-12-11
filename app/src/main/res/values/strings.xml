@@ -3,4 +3,9 @@
     <string name="teoria">Teória</string>
     <string name="funcion">Función</string>
     <string name="creditos">Créditos</string>
+    <string name="round">Planificacion Algoritmo Round Robin</string>
+    <string name="titulo1">Definición</string>
+    <string name="definicion">Round robin es un método para seleccionar todos los elementos en un grupo de manera equitativa y en un orden racional, normalmente comenzando por el primer elemento de la lista hasta llegar al último y empezando de nuevo desde el primer elemento. El planeamiento Round Robin es tan simple como fácil de implementar, y está libre de inanición. El nombre del algoritmo viene del principio de Round-Roubin conocido de otros campos, donde cada persona toma una parte de un algo compartido en cantidades parejas. Una forma sencilla de entender el round robin es imaginar una secuencia para "tomar turnos". En operaciones computacionales, un método para ejecutar diferentes procesos de manera concurrente, para la utilización equitativa de los recursos del equipo, es limitando cada proceso a un pequeño periodo de tiempo (quantum), y luego suspendiendo éste proceso para dar oportunidad a otro proceso y así sucesivamente. A esto se le denomina comúnmente como Planificación Round-Robin.</string>
+    <string name="titulo2">Aplicación S.O</string>
+    <string name="apli_so">Round Robin es uno de los algoritmos de planificación de procesos más complejos y dificiles, dentro de un sistema operativo que asigna a cada proceso una porción de tiempo equitativa y ordenada, tratando a todos los procesos con la misma prioridad. En Sistemas operativos, la planificación Round Robin da un tiempo máximo de uso de CPU a cada proceso, pasado el cual es desalojado y retornado al estado de listo, la lista de procesos se planifica por FCFS, primero llegado, primero atendido.</string>
 </resources>
