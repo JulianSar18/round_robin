@@ -47,9 +47,9 @@ public class OnboardingAdapter extends RecyclerView.Adapter<OnboardingAdapter.On
 
         public OnboardingViewHolder(@NonNull View itemView) {
             super(itemView);
-            texTitle = itemView.findViewById(R.id.textTitle);
+            texTitle = itemView.findViewById(R.id.Nombre);
             textDescription = itemView.findViewById(R.id.texDescription);
-            imageOnboarding = itemView.findViewById(R.id.imageOnboardiong);
+            imageOnboarding = itemView.findViewById(R.id.our);
         }
 
         void setOnboardingData(Onboardingitem onboardingitem){
