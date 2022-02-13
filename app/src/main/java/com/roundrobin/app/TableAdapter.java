@@ -45,7 +45,7 @@ public class TableAdapter extends RecyclerView.Adapter<TableAdapter.ViewHolder> 
         return table_list.size();
     }
 
-    public class ViewHolder  extends RecyclerView.ViewHolder{
+    public static class ViewHolder  extends RecyclerView.ViewHolder{
         TextView name_tv, peso_tv, estado_tv, prioridad_tv;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
