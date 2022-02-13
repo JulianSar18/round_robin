@@ -3,10 +3,10 @@ package com.roundrobin.app;
 public class TableModel {
     String nombre;
     int pesoCPU;
-    int estado;
+    String estado;
     int prioridad;
 
-    public TableModel(String nombre, int pesoCPU, int estado, int prioridad) {
+    public TableModel(String nombre, int pesoCPU, String estado, int prioridad) {
         this.nombre = nombre;
         this.pesoCPU = pesoCPU;
         this.estado = estado;
@@ -21,7 +21,7 @@ public class TableModel {
         return pesoCPU;
     }
 
-    public int getEstado() {
+    public String getEstado() {
         return estado;
     }
 

@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity_funcion">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="148dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="131dp"
+        android:gravity="center"
+        android:text="Funcionamiento" />
 
     <TableLayout
         android:layout_width="409dp"
@@ -70,5 +84,92 @@
 
     </TableLayout>
 
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="103dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="34dp"
+        android:text="Quantum" />
 
-</LinearLayout>
+    <EditText
+        android:id="@+id/TXTnumberQuantum"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="13dp"
+        android:layout_toEndOf="@+id/textView10"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="32dp"
+        android:text="Nombre Proceso" />
+
+    <EditText
+        android:id="@+id/TXTtextNombre"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TXTnumberQuantum"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/textView11"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="51dp"
+        android:text="Peso en CPU" />
+
+    <EditText
+        android:id="@+id/TXTnumberPeso"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TXTtextNombre"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_toEndOf="@+id/textView12"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/Agregar"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TXTnumberPeso"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="56dp"
+        android:onClick="btnAgregar"
+        tools:text="@string/titulo1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="133dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/TXTnumberPeso"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="63dp"
+        android:layout_toEndOf="@+id/Agregar"
+        android:onClick="btnIniciar"
+        tools:text="comenzar" />
+
+
+</RelativeLayout>

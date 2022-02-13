@@ -10,12 +10,12 @@
         <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3328125" />
         <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/font/alien.xml" value="0.40208333333333335" />
         <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/layout/activity_creditos.xml" value="0.31666666666666665" />
-        <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/layout/activity_funcion.xml" value="0.33" />
+        <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/layout/activity_funcion.xml" value="0.20885416666666667" />
         <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/layout/activity_main.xml" value="0.371875" />
         <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/layout/activity_teoria.xml" value="0.33" />
         <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/layout/creditos.xml" value="0.37092391304347827" />
         <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/layout/item_container_onboarding.xml" value="0.25" />
-        <entry key="..\:/Users/Julian/StudioProjects/RoundRobin/app/src/main/res/layout/item_layout.xml" value="0.371875" />
+        <entry key="..\:/Users/marlo/AndroidStudioProjects/roundRobin2/round_robin/app/src/main/res/layout/activity_funcion.xml" value="0.33" />
         <entry key="..\:/Users/marlo/AndroidStudioProjects/round_robin/app/src/main/res/drawable/onboarding_indicator_active.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/marlo/AndroidStudioProjects/round_robin/app/src/main/res/drawable/onboarding_indicator_inactive.xml" value="0.19074074074074074" />
         <entry key="..\:/Users/marlo/AndroidStudioProjects/round_robin/app/src/main/res/layout/activity_teoria.xml" value="0.22" />
@@ -23,7 +23,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

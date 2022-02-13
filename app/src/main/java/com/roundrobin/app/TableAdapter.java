@@ -36,7 +36,7 @@ public class TableAdapter extends RecyclerView.Adapter<TableAdapter.ViewHolder> 
             holder.name_tv.setText(String.valueOf(model.getNombre()));
             holder.peso_tv.setText(String.valueOf(model.getPesoCPU()));
             holder.estado_tv.setText(String.valueOf(model.getEstado()));
-            holder.prioridad_tv.setText(String.valueOf(model.getEstado()));
+            holder.prioridad_tv.setText(String.valueOf(model.getPrioridad()));
         }
     }
 
