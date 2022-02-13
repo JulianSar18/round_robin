@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="50dp">
 
-    <TableRow>
+    <TableRow
+        android:textColor="@color/black">
         <TextView
             android:id="@+id/name_tv"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textColor="@color/white"
-            android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
             android:layout_gravity="center_horizontal">
@@ -20,8 +19,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textColor="@color/white"
-            android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
             android:layout_gravity="center_horizontal">
@@ -31,8 +28,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textColor="@color/white"
-            android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
             android:layout_gravity="center_horizontal">
@@ -42,8 +37,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textColor="@color/white"
-            android:padding="10sp"
             android:textSize="14sp"
             android:layout_weight="4"
             android:layout_gravity="center_horizontal">
