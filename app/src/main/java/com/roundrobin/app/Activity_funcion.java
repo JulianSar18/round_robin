@@ -55,33 +55,41 @@ public class Activity_funcion extends AppCompatActivity {
             @Override
             public void run() {
                 int quantumP = Integer.parseInt(quantum.getText().toString());
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        do {
-                            ModeloProceso proceso = procesos.get(0);
-                            if (proceso.getPeso() > 0) {
-                                procesos.get(0);
-                                procesos.get(0).setEstado(1);
-                                dibujarTable(procesos);
-                                int pesoNew = procesos.get(0).getPeso() - quantumP;
-                                procesos.get(0).setPeso(pesoNew);
-                                if (procesos.get(0).getPeso() > 0) {
+                do {
+                    try {
+
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+
+                                ModeloProceso proceso = procesos.get(0);
+                                if (proceso.getPeso() > 0) {
+                                    procesos.get(0);
+                                    procesos.get(0).setEstado(1);
+                                    dibujarTable(procesos);
+                                    int pesoNew = procesos.get(0).getPeso() - quantumP;
+                                    procesos.get(0).setPeso(pesoNew);
+                                    if (procesos.get(0).getPeso() > 0) {
+                                        procesos.remove(0);
+                                        procesos.add(proceso);
+                                    } else if (procesos.get(0).getPeso() <= 0) {
+                                        procesos.get(0).setPeso(0);
+                                        procesos.get(0).setEstado(2);
+                                        contadorTerminado++;
+                                    }
+                                } else {
                                     procesos.remove(0);
                                     procesos.add(proceso);
-                                } else if (procesos.get(0).getPeso() <= 0) {
-                                    procesos.get(0).setPeso(0);
-                                    procesos.get(0).setEstado(2);
-                                    contadorTerminado++;
                                 }
-                            }else{
-                                procesos.remove(0);
-                                procesos.add(proceso);
+                                dibujarTable(procesos);
+
                             }
-                            dibujarTable(procesos);
-                        }while(contadorTerminado < procesos.size());
+                        });
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
                     }
-                });
+                }while(contadorTerminado < procesos.size());
             }
         }.start();
     }
