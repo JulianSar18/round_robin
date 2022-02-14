@@ -14,4 +14,11 @@
     <string name="julian">Julian A. Sarmiento Leon -20182578035</string>
     <string name="miller">Miller A. Barahona Hernandez - 20182578039</string>
     <string name="marlon">Marlon S. Castaño Merida - 20182578124</string>
+    <string name="Name">Nombre</string>
+    <string name="Peso">Rafaga CPU</string>
+    <string name="Estado">Estado</string>
+    <string name="Prioridad">Prioridad</string>
+    <string name="Titulo3">Funcionamiento</string>
+    <string name="Agregar">Agregar</string>
+    <string name="Iniciar">Iniciar</string>
 </resources>
